@@ -1,3 +1,5 @@
+-- Question 1: Build a Complete Database Management System
+
 -- 1. Create Database
 CREATE DATABASE StudentRecords;
 USE StudentRecords;
@@ -26,3 +28,4 @@ CREATE TABLE Enrollments (
     FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
     FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
 );
+
